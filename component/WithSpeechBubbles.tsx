@@ -74,7 +74,7 @@ const TestimonialAvatar = ({
 }) => {
   return (
     <Flex align={'center'} mt={8} direction={'column'}>
-      <Avatar src={src} alt={name} mb={2} />
+      <Avatar src={src} name={name} mb={2} />
       <Stack spacing={-1} align={'center'}>
         <Text color={'pink.400'} fontWeight={600}>{name}</Text>
         <Text fontSize={'sm'} color={useColorModeValue('pink.600', 'pink.400')}>
