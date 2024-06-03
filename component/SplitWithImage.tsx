@@ -45,7 +45,7 @@ import {
     return (
       <Container maxW={'5xl'} py={12}>
          <Stack spacing={0} align={'center'} marginBottom={20}>
-          <Heading color={'pink.400'}>Discover What Sets Us Apart</Heading>
+          <Heading color={'pink.400'}> What Sets Us Apart</Heading>
           <Text></Text>
         </Stack>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
