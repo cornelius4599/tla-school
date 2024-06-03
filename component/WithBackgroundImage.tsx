@@ -14,7 +14,7 @@ import {
     return (
       <Flex
         w={'full'}
-        h={'100vh'}
+        h={'70vh'}
         backgroundImage={'url(/images/tlaOne.jpg)'}
         bgRepeat="no-repeat"
         backgroundSize={['cover', 'cover','cover']}
@@ -25,10 +25,10 @@ import {
           justify={'center'}
           px={useBreakpointValue({ base: 4, md: 8 })}
           bgGradient={'linear(to-r, blackAlpha.600, transparent)'}>
-          <Stack maxW={'6xl'} align={'center'} spacing={2}>
+          <Stack maxW={'6xl'} marginTop={'30px'} align={'center'} spacing={2}>
           <Heading 
           color={'pink.400'} 
-          fontSize={useBreakpointValue({ base: '2xl', md: '8xl' })}
+          fontSize={useBreakpointValue({ base: '3xl', md: '8xl' })}
           textShadow={'0px 0px 10px rgba(0,0,0,0.5)'}
           >The Leadership Academy</Heading>
           <Text 
